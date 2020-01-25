@@ -1,0 +1,55 @@
+.ask-container{
+    max-width: max-content;
+    width: 800px;
+    float: center;
+    margin: auto;
+    padding: 40px;
+    line-height: 2;
+    align-content: left;
+    
+
+}
+h4 {
+    color: ivory;
+    font-size: 24px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.label {
+    text-align: left;
+    color: ivory;
+}
+
+.field {
+    font-size: 15px;
+    width: 300px;
+    height: 20px;
+}
+.txtarea {
+    resize: none;
+    text-align: left;
+    font-size: 15px;
+    margin-left: 75px;
+    
+}
+
+.summit {
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+#comment p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: ivory;
+}
+
+
+li img {
+    width: 25px;
+    height: 25px;
+}

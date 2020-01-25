@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Bazar';
+    src: url('http://portfolio.queenofwhisks.com/demo/font/deco/Bazar.eot?#iefix') format('embedded-opentype'),  url('http://portfolio.queenofwhisks.com/demo/font/deco/Bazar.woff') format('woff'), url('http://portfolio.queenofwhisks.com/demo/font/deco/Bazar.ttf')  format('truetype'), url('http://portfolio.queenofwhisks.com/demo/font/deco/Bazar.svg#Bazar') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  html {
+    font-size: 10px;
+  }
+  body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  header h1 {
+    font-size: 50px;
+    line-height: 1.0;
+    text-align: center;
+    margin: 0;
+
+  }
+  header h1:hover{
+    cursor: pointer;
+  }
+  
+  .ten-tech {
+    background:#24252A;
+    color: #f9e983;
+    font-family: Futura, 'Futura PT', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: auto;
+  }
+  .ten-tech span {
+    border: 0.3rem solid #b4b084;
+    -webkit-text-stroke-color: #d49111;
+    display: block;
+    padding: 1rem;
+    width: 25rem;
+    margin: 0 auto;
+  }
+  .ten-tech .large {
+    
+    font-size: 285%;
+    -webkit-text-stroke-width: 3px;
+  }
+  .ten-tech .small {
+    border-width: 0 3px 3px;
+    -webkit-text-stroke-width: 2px;
+  }
+  /* flip the text */
+  .ten-tech .flip {
+    align-self: auto;
+    border: none;
+    width: 250px;
+    padding: 0;
+    margin: 0 0 0 270px;
+    font-size: 285%;
+    -webkit-text-stroke-width: 3px;
+    -ms-transform: rotate(-180deg); /* IE 9 */
+    -webkit-transform: rotate(-180deg); /* Chrome, Safari, Opera */
+    transform: rotate(-180deg);
+  }
